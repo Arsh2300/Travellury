@@ -15,7 +15,7 @@ module.exports.signupUser=async(req,res)=>{
             if(err){
                 return next(err);
             }
-            req.flash("success","Welcome to BookNest");
+            req.flash("success","Travellury");
             res.redirect("/listings");  
         })
             
@@ -33,7 +33,7 @@ module.exports.renderLoginForm=async(req,res)=>{
 
 module.exports.loginUser=
 async (req,res)=>{
-req.flash("success","Welcome back to BookNest");
+req.flash("success","Travellury");
 let redirectUrl=res.locals.redirectUrl ||"/listings";
 res.redirect(redirectUrl);
 }
