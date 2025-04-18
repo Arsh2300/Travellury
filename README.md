@@ -1,6 +1,6 @@
 Travellury - Travel Made Easy 🌍✈
 📌 Project Overview
-Travellury is a travel website created as part of our Source Code Management (SCM) project.
+Travellury is a travel website developed for our Source Code Management (SCM) project.
 
 The website helps users explore tourist destinations and plan their trips efficiently.
 
