@@ -1,2 +1,34 @@
-# Travellury
-Travellury is a travel website developed as a part of our Source Code Management project. The website aims to make travel planning easier and more exciting for users by offering a visually appealing and user-friendly platform to explore destinations, plan trips, and soon, book travel experiences. Our goal is to provide a smooth and engaging interface where users can browse popular travel spots, filter them based on their interests like beaches, mountains, or adventure, and organize their travel itineraries with ease. Travellury has been built using HTML, CSS, React.js, Javascript, Nodejs. We also plan to integrate backend functionalities in future versions for booking and user login features. The project is managed using Git and GitHub to ensure proper version control and collaboration. Our team consists of five dedicated members: Amolpreet Kaur, Bhoomika, Baljot Singh, Ayush, and Arshdeep Kaur. Each member contributed to the design, development, and overall project planning. This project helped us understand practical applications of SCM tools while building something creative and useful.
+Travellury - Travel Made Easy 🌍✈
+📌 Project Overview
+Travellury is a travel website created as part of our Software Configuration Management (SCM) project.
+
+The website helps users explore tourist destinations and plan their trips efficiently.
+
+Designed to be simple, responsive, and user-friendly for all types of travelers.
+
+🧩 Key Features
+Explore a variety of travel destinations with images and details.
+
+Filter places by category (beach, mountains, historical, adventure, etc.).
+
+Interactive trip planner interface.
+
+Clean and responsive design for mobile and desktop.
+
+Easy navigation and visually rich layout.
+
+⚙ Technology Stack
+Frontend: HTML, CSS, JavaScript
+Backend: React.js, Node.js, etc.
+Version Control: Git & GitHub
+
+👥 Team Members
+Amolpreet Kaur
+
+Bhoomika
+
+Baljot
+
+Ayush
+
+Arshdeep Kaur
