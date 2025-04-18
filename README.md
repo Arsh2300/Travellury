@@ -1,6 +1,6 @@
 Travellury - Travel Made Easy 🌍✈
 📌 Project Overview
-Travellury is a travel website created as part of our Software Configuration Management (SCM) project.
+Travellury is a travel website created as part of our Source Code Management (SCM) project.
 
 The website helps users explore tourist destinations and plan their trips efficiently.
 
@@ -21,6 +21,20 @@ Easy navigation and visually rich layout.
 Frontend: HTML, CSS, JavaScript
 Backend: React.js, Node.js, etc.
 Version Control: Git & GitHub
+
+✅ SCM Tools Used
+Git for version control.
+
+GitHub for repository hosting and collaboration.
+
+Commit logs maintained for tracking changes.
+
+🎯 Learning Outcome
+Hands-on experience with version control systems.
+
+Practical understanding of team collaboration using GitHub.
+
+Improved frontend development and project planning skills.
 
 👥 Team Members
 Amolpreet Kaur
