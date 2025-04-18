@@ -37,6 +37,7 @@ Practical understanding of team collaboration using GitHub.
 Improved frontend development and project planning skills.
 
 👥 Team Members
+
 Amolpreet Kaur
 
 Bhoomika
