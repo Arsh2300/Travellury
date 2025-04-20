@@ -5,6 +5,7 @@ const wrapAsync=require("../utils/wrapAsync.js");
 
 
 
+
 router.get("/",wrapAsync(async (req,res)=>{
     try {
         const searchListings = await Listing.find({ location: req.query.q });
