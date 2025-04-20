@@ -275,6 +275,8 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
+
+  
   {
     title: "Historic Cottage in Charleston",
     description:
