@@ -75,8 +75,6 @@ module.exports.updateListing=async (req, res) => {
     req.flash("success","Listing Updated!");
     res.redirect(/listings/${id});
 }
-
-
 //delete route
 module.exports.deleteListing=async (req,res)=>{
     const {id}=req.params;
