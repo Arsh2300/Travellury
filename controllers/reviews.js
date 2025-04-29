@@ -13,12 +13,11 @@ module.exports.createReview=async(req,res,next)=>{
     // Save the review and update the listing
     await newReview.save();
     await listing.save();
-    // Show success message and redirect
+    // Show Success Message and Redirect
 
     req.flash("success","New Review Created!");
     res.redirect(/listings/${listing._id});
 }
-
 module.exports.destroyReview=async(req,res,next)=>{
     let{id,reviewId}=(req.params);
     // Remove the review reference from the listing and delete the review
