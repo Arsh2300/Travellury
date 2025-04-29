@@ -9,6 +9,7 @@ Explore a variety of travel destinations with images and details.
 --Clean and responsive design for mobile and desktop.
 --Easy navigation and visually rich layout.
 
+
 ⚙ Technology Stack
 --Frontend: HTML, CSS, JavaScript
 --Backend: React.js, Node.js, etc.
