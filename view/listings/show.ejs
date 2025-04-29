@@ -34,7 +34,8 @@
                         <form method="post" action="/listings/<%= listing._id %>?_method=DELETE" class="d-inline">
                             <button class="btn btn-dark">Delete</button>
                         </form>
-                        
+
+
                     <% } %>
                     <form action="/listings/<%=listing._id%>/booking" method="post">
                         <button class="btn btn-dark show-booking-btn" >Book Now</button>
