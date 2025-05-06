@@ -3,13 +3,9 @@ const router=express.Router();
 const Listing=require("../models/listing.js");
 const wrapAsync=require("../utils/wrapAsync.js");
 
-
-
-
 router.get("/",wrapAsync(async (req,res)=>{
     try {
         const searchListings = await Listing.find({ location: req.query.q });
-
         if (searchListings.length > 0) {
             // Render the search results if listings are found
             res.render("listings/search.ejs", { searchListings });
