@@ -13,7 +13,6 @@ module.exports.createReview=async(req,res,next)=>{
     req.flash("success","New Review Created!");
     res.redirect(`/listings/${listing._id}`);
 }
-
 module.exports.destroyReview=async(req,res,next)=>{
     let{id,reviewId}=(req.params);
     await Listing.findByIdAndUpdate(id,{$pull: {reviews:reviewId}});
