@@ -1,6 +1,6 @@
 const Listing=require("../models/listing");
 
-//index ROUTE
+//index route
 module.exports.index=  async (req,res)=>{
     const allListings= await Listing.find();
     res.render("listings/index.ejs",{allListings});
@@ -10,7 +10,6 @@ module.exports.index=  async (req,res)=>{
 module.exports.renderNewForm=(req,res)=>{ 
     res.render("listings/new.ejs");
 }
-
 
 //show route
 module.exports.showListing=async (req,res)=>{
@@ -76,6 +75,8 @@ module.exports.updateListing=async (req, res) => {
     req.flash("success","Listing Updated!");
     res.redirect(`/listings/${id}`);
 }
+
+
 //delete route
 module.exports.deleteListing=async (req,res)=>{
     const {id}=req.params;
