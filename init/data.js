@@ -275,8 +275,6 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
-
-  
   {
     title: "Historic Cottage in Charleston",
     description:
@@ -350,6 +348,5 @@ const sampleListings = [
     country: "Costa Rica",
   },
 ];
-
 
 module.exports = { data: sampleListings };

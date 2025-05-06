@@ -17,4 +17,6 @@ const reviewSchema= new Schema({
         ref:"user",
       },
 });
+
 module.exports=mongoose.model("Review",reviewSchema);
+

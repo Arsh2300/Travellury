@@ -1,6 +1,5 @@
 <% layout('/layouts/boilerplate') -%>
 
-
 <div class="row all-Listings row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mt-2">
     <% if (typeof searchListings !== 'undefined' && searchListings.length > 0) { %>
         <% for (const listing of searchListings) { %>
@@ -18,5 +17,5 @@
         <% } %>
     <% } else { %>
         <h2>No listings found</h2>
-    <% } %>
+    <% } %>
 </div>

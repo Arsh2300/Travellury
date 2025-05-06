@@ -1,4 +1,3 @@
-
 const mongoose=require("mongoose");
 const Schema=mongoose.Schema;
 const Review=require("./review.js")
@@ -9,6 +8,9 @@ const listingSchema=new Schema({
         require:true,
     },
     description:String,
+    genre:{
+      type:String
+    },
     image:{
         url:String,
         filename:String, 
@@ -29,6 +31,7 @@ const listingSchema=new Schema({
       type:Schema.Types.ObjectId,
       ref:"user",
     },
+    
 });
 
 
