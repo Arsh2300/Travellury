@@ -12,6 +12,7 @@ const upload = multer({
 const listingController = require("../controllers/listings.js");
 
 
+
 router
     .route("/")
     .get(wrapAsync(listingController.index))

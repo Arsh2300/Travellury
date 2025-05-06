@@ -5,6 +5,7 @@ const mongoose=require("mongoose");
 const initdata=require("./data.js");
 const Listing=require("../models/listing.js");
 
+
 // Connect to MongoDB using environment variable
 const dbUrl = process.env.ATLASDB_URL;
 console.log(dbUrl);

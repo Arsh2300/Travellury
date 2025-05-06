@@ -9,6 +9,7 @@
     overflow-y: hidden; /* Prevent vertical scrolling */
     white-space: nowrap;
     margin-bottom: 0.3rem;
+
     
         /* Hide scrollbar */
     scrollbar-width: none; /* For Firefox */
