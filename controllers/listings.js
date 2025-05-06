@@ -6,7 +6,7 @@ module.exports.index=  async (req,res)=>{
     res.render("listings/index.ejs",{allListings});
 }
 
-//NEW route
+//new route
 module.exports.renderNewForm=(req,res)=>{ 
     res.render("listings/new.ejs");
 }
@@ -35,10 +35,10 @@ module.exports.showListing=async (req,res)=>{
 module.exports.createListing=async(req,res,next)=>{ 
     let url=req.file.path;
     let filename=req.file.filename;
-    console.log(url,filename);
     const newListing=new Listing(req.body.listing);
     newListing.owner=req.user._id; 
-    newListing.image={url,filename};      
+    newListing.image={url,filename};   
+    console.log(req.body);
     await newListing.save();
     console.log(newListing);
     req.flash("success","New Listing Created!");    
@@ -73,7 +73,7 @@ module.exports.updateListing=async (req, res) => {
     }
     
     req.flash("success","Listing Updated!");
-    res.redirect(/listings/${id});
+    res.redirect(`/listings/${id}`);
 }
 //delete route
 module.exports.deleteListing=async (req,res)=>{
@@ -82,3 +82,5 @@ module.exports.deleteListing=async (req,res)=>{
     req.flash("success","Listing Deleted!");
     res.redirect("/listings");
 }
+
+
