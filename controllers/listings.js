@@ -11,6 +11,7 @@ module.exports.renderNewForm=(req,res)=>{
     res.render("listings/new.ejs");
 }
 
+
 //show route
 module.exports.showListing=async (req,res)=>{
     const {id}=req.params;
