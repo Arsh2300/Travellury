@@ -15,7 +15,7 @@ module.exports.signupUser=async(req,res)=>{
             if(err){
                 return next(err);
             }
-            req.flash("success","Welcome to BookNest");
+            req.flash("success","Welcome to Travellury");
             res.redirect("/listings");  
         })
             
